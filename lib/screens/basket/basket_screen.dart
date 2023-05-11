@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class LocationScreen extends StatelessWidget {
+class BasketScreen extends StatelessWidget {
   static const String routeName = '/';
 
   late BuildContext context;
   static Route route(){
     return MaterialPageRoute(
-      builder: (_) => LocationScreen(),
+      builder: (_) => BasketScreen(),
       settings: RouteSettings(name: routeName),
     );
   }

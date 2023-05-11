@@ -1,6 +1,6 @@
+import 'package:cycle_resale_app/config/app_router.dart';
 import 'package:cycle_resale_app/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'dart:ui';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      onGenerateRoute: AppRouter.onGenerateRoute,
+      initialRoute: HomeScreen.routeName
     );
   }
 }
