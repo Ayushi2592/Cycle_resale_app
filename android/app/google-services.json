@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403029119235",
+    "project_id": "cycle-resale-app-9afeb",
+    "storage_bucket": "cycle-resale-app-9afeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403029119235:android:79b57d16e671120090d936",
+        "android_client_info": {
+          "package_name": "com.example.cycle_resale_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403029119235-0gk1amc8dj066q1u4p44htujf6v8bf3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_nuSS9hoCNeQgtbUKULXmvnFkfMrt3CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403029119235-0gk1amc8dj066q1u4p44htujf6v8bf3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
