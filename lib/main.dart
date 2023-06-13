@@ -1,3 +1,4 @@
+import 'package:cycle_resale_app/screens/authentication/email_auth_screen.dart';
 import 'package:cycle_resale_app/screens/home_screen.dart';
 import 'package:cycle_resale_app/screens/login_screen.dart';
 import 'package:cycle_resale_app/screens/registration_screen.dart';
@@ -30,6 +31,7 @@ class CycleResale extends StatelessWidget {
         LoginScreen.id : (context) => LoginScreen(),
         RegistrationScreen.id : (context) => RegistrationScreen(),
         HomeScreen.id : (context) => HomeScreen(),
+        EmailAuthScreen.id : (context) => EmailAuthScreen(),
 
 
       },
